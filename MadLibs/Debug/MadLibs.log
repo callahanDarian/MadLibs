@@ -1,0 +1,17 @@
+﻿Build started 3/27/2018 1:29:02 PM.
+     1>Project "C:\Users\dc131186\Desktop\C++ Repositories\MadLibs\MadLibs\MadLibs.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib Source.cpp
+         Source.cpp
+     1>Source.cpp(20): warning C4101: 'secondNumber' : unreferenced local variable
+     1>Source.cpp(19): warning C4101: 'firstNumber' : unreferenced local variable
+     1>c:\users\dc131186\desktop\c++ repositories\madlibs\madlibs\source.cpp(23): warning C4700: uninitialized local variable 'firstMinusSecond' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dc131186\Desktop\C++ Repositories\MadLibs\Debug\MadLibs.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dc131186\Desktop\C++ Repositories\MadLibs\Debug\MadLibs.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Source.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         MadLibs.vcxproj -> C:\Users\dc131186\Desktop\C++ Repositories\MadLibs\Debug\MadLibs.exe
+     1>Done Building Project "C:\Users\dc131186\Desktop\C++ Repositories\MadLibs\MadLibs\MadLibs.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97
