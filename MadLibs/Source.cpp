@@ -19,6 +19,33 @@ int main()
 	int firstNumber;
 	int secondNumber;
 	int firstMinusSecond;
+
+	std::cout << "Mad Libs \n\n";
+	std::cout << "Enter a color \n > ";
+	std::cin >> color;
+	std::cout << std::endl;
+	std::cout << " Enter a word ending in 'est' \n > ";
+	std::cin >> wordEst;
+	std::cout << std::endl;
+	std::cout << "Enter a plural body part \n > ";
+	std::cin >> bodyPartPlural;
+	std::cout << std::endl;
+	std::cout << "Enter an animal \n > ";
+	std::cin >> animal;
+	std::cout << std::endl;
+	std::cout << "Enter a noun \n > ";
+	std::cin >> noun;
+	std::cout << std::endl;
+	std::cout << "Enter a plural noun \n > ";
+	std::cin >> pluralNoun;
+	std::cout << std::endl;
+	std::cout << "Enter a number \n > ";
+	std::cin >> firstMinusSecond;
+	std::cout << std::endl;
+	std::cout << "Enter another number \n > ";
+	std::cin >> secondNumber;
+	std::cout << std::endl;
+	std::cout << "\n - Creating Mad Lib - \n" << std::endl;
 	
 	std::cout << "The " << color << " dragon is the " << wordEst << " dragon of all. It has " << firstMinusSecond << std::endl;
 	std::cout << bodyPartPlural << " and a " << animal << " shaped like a " << noun << ", and it loves to eat " << std::endl;
